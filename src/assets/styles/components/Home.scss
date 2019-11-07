@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+}
+
+.bg_img_01 {
+    background-image: url(../../../assets/static/asia-2181888_1920.jpg);
+    min-height: 100%;
+    top: 100px;
+    margin-top: 100px;
+}
+
+.bg_img_02 {
+    background-image: url(../../../assets/static/city-3126072_1920.jpg);
+    min-height: 400px;
+}
+
+.bg_img_03 {
+    background-image: url(../../../assets/static/car-2247146_1920.jpg);
+    min-height: 200px;
+}
+
+.bg_img_01, .bg_img_02, .bg_img_03 {
+    height: 700px;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
